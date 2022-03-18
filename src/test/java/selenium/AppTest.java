@@ -21,7 +21,7 @@ public class AppTest
     @Before
     public void setUp(){
         System.out.println("Iniciando configuración...");
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
         driver.manage().window().maximize();
